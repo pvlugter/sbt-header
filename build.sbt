@@ -1,6 +1,6 @@
 lazy val sbtHeader = project
   .in(file("."))
-  .enablePlugins(AutomateHeaderPlugin, GitVersioning)
+  .enablePlugins(GitVersioning) // AutomateHeaderPlugin
 
 name := "sbt-header"
 
